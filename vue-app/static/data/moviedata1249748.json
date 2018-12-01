@@ -1,0 +1,31 @@
+{
+	"reason": "success",
+	"result": [{
+			
+			"movieId": "249748",
+			"movieName": "中国蓝盔",
+			"pic_url": "http:\/\/img5.mtime.cn\/mt\/2018\/10\/10\/112514.30587089_182X243X4.jpg",
+			"xianqing": {
+				"movieid": "249748",
+				"rating": "7.9",
+				"genres": "",
+				"runtime": null,
+				"language": null,
+				"title": "中国蓝盔",
+				"poster": "http:\/\/img5.mtime.cn\/mg\/2017\/08\/01\/162541.19618265_270X405X4.jpg",
+				"writers": "",
+				"film_locations": null,
+				"directors": "宁海强",
+				"rating_count": "0",
+				"actors": "徐洪浩 Honghao Xu,王韬 Tao Wang,一龙 Yi Long,沈浩 Hao Shen",
+				"plot_simple": "作为一部现代战争影片，《中国蓝盔》取景非洲南苏丹、新疆哈密、广西桂林等地，讲述了当下中国人民解放军坚决执行习主席指示、严格遵守联合国法纪，冒着随时牺牲的危险，坚守在我国一万公里外战火蔓延的非洲大陆上，捍卫世界和平，保护战乱中的人民远离生灵涂炭的真实现状，用形象化的展示对维护世界和平有了更进一步的深刻阐释。全片塑造了杜峰、吴江、黄启典、王刚、姜山等一批怀揣英雄情结的年轻中国军人形象，展现80后、90后青年官兵的担当、自信、从容和坚定。",
+				"year": "2017",
+				"country": null,
+				"type": null,
+				"release_date": "0",
+				"also_known_as": ""
+			}
+		}
+	],
+	"error_code": 0
+}

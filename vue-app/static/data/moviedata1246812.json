@@ -1,0 +1,32 @@
+{
+	"reason": "success",
+	"result": [{
+			
+		
+			"movieId": "246812",
+			"movieName": "开学悸",
+			"pic_url": "http:\/\/img5.mtime.cn\/mt\/2018\/10\/31\/163025.45047244_182X243X4.jpg",
+			"xianqing": {
+				"movieid": "246812",
+				"rating": "7.9",
+				"genres": "惊悚\/剧情\/恐怖",
+				"runtime": null,
+				"language": "汉语普通话",
+				"title": "开学悸",
+				"poster": "http:\/\/img5.mtime.cn\/mg\/2017\/05\/26\/163135.19064541_270X405X4.jpg",
+				"writers": "",
+				"film_locations": "中国",
+				"directors": "刘鼎业",
+				"rating_count": "0",
+				"actors": "刘颖颖 Ying-ying Liu,曹晏豪 Wen-hao Cao,曾淇 Qi Zeng,秦语 Yu Qin",
+				"plot_simple": "　　这是一个关于高校恐怖传说的故事：“闹鬼的老礼堂”“半夜的镜子”这些古老的传说在不同的时空中穿梭上演着青春期的黑暗。",
+				"year": "2017",
+				"country": "中国",
+				"type": null,
+				"release_date": "0",
+				"also_known_as": ""
+			}
+		}
+	],
+	"error_code": 0
+}

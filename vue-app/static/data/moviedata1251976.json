@@ -1,0 +1,31 @@
+{
+	"reason": "success",
+	"result": [{
+			
+			"movieId": "251976",
+			"movieName": "梦境之源",
+			"pic_url": "http:\/\/img5.mtime.cn\/mt\/2018\/11\/06\/091428.47708663_182X243X4.jpg",
+			"xianqing": {
+				"movieid": "251976",
+				"rating": "8.0",
+				"genres": "剧情\/悬疑",
+				"runtime": null,
+				"language": "汉语普通话",
+				"title": "梦境之源",
+				"poster": "http:\/\/img31.mtime.cn\/mt\/1976\/251976\/251976_270X405X4.jpg",
+				"writers": "",
+				"film_locations": "中国",
+				"directors": "柳珂",
+				"rating_count": "0",
+				"actors": "陈志朋 Banny Chen,颜丹晨 Danchen Yan,李彧 Yu Li,安琥 Hu An",
+				"plot_simple": "电影《梦境之源》主要讲述了货车司机李昂（李彧饰）因心理疾病接受心理医生曹井润（安琥饰）的催眠治疗，在梦境中意外卷入一场凶杀案的故事。现实和梦境彼此重叠，一场智力的较量由此拉开，十分烧脑！",
+				"year": "2017",
+				"country": "中国",
+				"type": null,
+				"release_date": "0",
+				"also_known_as": ""
+			}
+		}
+	],
+	"error_code": 0
+}

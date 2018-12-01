@@ -1,0 +1,32 @@
+{
+	"reason": "success",
+	"result": [{
+			
+		
+			"movieId": "250056",
+			"movieName": "无名之辈",
+			"pic_url": "http:\/\/img5.mtime.cn\/mt\/2018\/09\/13\/113722.40019611_182X243X4.jpg",
+			"xianqing": {
+				"movieid": "250056",
+				"rating": "8.0",
+				"genres": "喜剧\/剧情",
+				"runtime": null,
+				"language": "汉语普通话",
+				"title": "慌枪走板",
+				"poster": "http:\/\/img5.mtime.cn\/mg\/2017\/08\/11\/193722.67066568_270X405X4.jpg",
+				"writers": "饶晓志,雷志龙",
+				"film_locations": "中国",
+				"directors": "饶晓志",
+				"rating_count": "0",
+				"actors": "陈建斌 Jianbin Chen,任素汐 Suxi Ren,潘斌龙 Binlong Pan,章宇 Yu Zhang",
+				"plot_simple": "一个山水环绕的小城，一把不知道还能不能用的老枪，一对痴情又妄想的劫匪，一个落魄又落寞的保安，一个只能在轮椅上骂人的彪悍女子，一场事先被张扬的大型追债活动，还有谎话连篇的按摩女、心比天高的少年、相爱相杀假装要去浪迹天涯的成年情侣……在某一个貌似平常的日子里，不同人的生活突然被拧在了一起，就像那时而阳光时而阴雨的天气，谁也不知道下一刻会发生什么，直到那把哑火的枪突然射出子弹，死亡就像一个摇摇欲坠的笑话，突然冲到所有人的面前…….",
+				"year": "2018",
+				"country": "中国",
+				"type": null,
+				"release_date": "20180101",
+				"also_known_as": ""
+			}
+		}
+	],
+	"error_code": 0
+}

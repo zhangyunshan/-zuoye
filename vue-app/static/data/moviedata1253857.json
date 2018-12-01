@@ -1,0 +1,32 @@
+{
+	"reason": "success",
+	"result": [{
+		
+			"movieId": "253857",
+			"movieName": "你好，之华",
+			"pic_url": "http:\/\/img5.mtime.cn\/mt\/2018\/10\/29\/091910.64953146_182X243X4.jpg",
+			"xianqing": {
+				"movieid": "253857",
+				"rating": "7.9",
+				"genres": "",
+				"runtime": null,
+				"language": null,
+				"title": "之华",
+				"poster": "http:\/\/img31.mtime.cn\/mt\/1857\/253857\/253857_270X405X4.jpg",
+				"writers": "岩井俊二",
+				"film_locations": null,
+				"directors": "岩井俊二",
+				"rating_count": "0",
+				"actors": "",
+				"plot_simple": "袁之岚代替刚刚去世的姐姐袁之华参加同学会，与中学时代仰慕的男生尹川重逢。二人用寄信的方式联系起彼此。在信件往来中，姐姐的生前的生命脉络亦逐渐清晰，几段横跨三代人的故事正悄然发生……",
+				"year": "2018",
+				"country": null,
+				"type": null,
+				"release_date": "0",
+				"also_known_as": ""
+			}
+		}
+		
+	],
+	"error_code": 0
+}

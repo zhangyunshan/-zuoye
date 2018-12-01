@@ -1,0 +1,33 @@
+{
+	"reason": "success",
+	"result": [{
+			
+			"movieId": "253027",
+			"movieName": "名侦探柯南：零的执行人",
+			"pic_url": "http:\/\/img5.mtime.cn\/mt\/2018\/10\/17\/093851.96263453_182X243X4.jpg",
+			"xianqing": {
+				"movieid": "253027",
+				"rating": "7.9",
+				"genres": "动画\/动作\/冒险",
+				"runtime": "1h 55min",
+				"language": "日语",
+				"title": "名侦探柯南：零之执行人",
+				"poster": "http:\/\/img5.mtime.cn\/mg\/2017\/12\/04\/203142.13597551_270X405X4.jpg",
+				"writers": "青山刚昌",
+				"film_locations": "日本",
+				"directors": "立川让",
+				"rating_count": "4",
+				"actors": "古谷彻 Tôru Furuya,林原惠美 Megumi Hayashibara,小山力也 Rikiya Koyama,绪方贤一 Kenichi Ogata",
+				"plot_simple": null,
+				"year": "2018",
+				"country": "日本",
+				"type": null,
+				"release_date": "20180413",
+				"also_known_as": ""
+			}
+		}
+		
+		
+	],
+	"error_code": 0
+}
