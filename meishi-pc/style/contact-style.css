@@ -1,0 +1,60 @@
+header nav{
+    background: #fff;
+}
+header nav .hd_nav a{
+    font-weight: 500;
+    color: #000;
+}
+header #banner{
+    width: 100%;
+    height: 450px;
+    background: url(../images/con_banner1.jpg) center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+main .contact{
+    background: #edffef;
+    height: 600px;
+    position: relative;
+}
+main .contact h1{
+    padding: 50px 0;
+    text-align: center;
+    color: #477445;
+    font-size: 34px;
+}
+main .contact form{
+    width: 1024px;
+    margin: 0 auto;
+}
+main .contact h3{
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+main .contact h3 span{
+    font-size: 16px;
+    display: block;
+    color: #555;
+}
+main .contact form input{
+    width: 321px;
+    height: 50px;
+    float: left;
+    margin: 20px 20px 0 0;
+    padding: 15px;
+    border: 0;
+}
+main .contact form textarea{
+    width: 1002px;
+    height: 150px;
+    margin-top: 20px;
+    border: 0;
+}
+main .contact form button{
+    position: absolute;
+    left: 50%;
+    bottom: 30px;
+    margin-left: -50px;
+}
+
+

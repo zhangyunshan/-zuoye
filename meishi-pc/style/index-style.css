@@ -1,0 +1,212 @@
+article{ padding: 50px 0;}
+main .food{
+    width: 1024px;
+    margin: 0 auto;
+    border-bottom: 1px solid #c8c8c8;
+}
+main .food .food_bg{
+    width: 900px;
+    height: 370px;
+    background-image: url("../images/bg.jpg");
+    background-attachment: fixed;
+    background-size: 80% ;
+    background-position: 70px;
+}
+main .food_list{margin-top: -300px;}
+main .food_list li{
+    float: left;
+    width: 25%;
+    padding-left: 10px;
+    height:450px;
+    position: relative;
+    padding-top: 3px;
+}
+main .food_list li div{
+    position: absolute;top: 380px;/*color: #3B6CA6;*/text-align: center;
+    width: 100%;
+    font-size: 20px;
+    color: #fff;
+    line-height: 1.5em;
+}
+main .food_list li:hover img{box-shadow: 0 0 20px #777;margin-top: -3px;}
+main .food_list li:hover div{
+    animation: up 1s 1;
+    position: absolute;
+    top: 305px;
+}
+@keyframes up {
+    from{top: 380px;}
+    to{top: 305px}
+}
+
+main .food_list li div span{
+    display: block;width: 2px;height: 65px;margin:20px auto 0;background: rgb(247, 158, 41);  }
+main .food_list li.food_text h1{font-size: 26px;color: #477445;padding: 0px 5px 30px;}
+main .food_list .food_text h1 span{ display: block;  font-size: 18px;  padding-top: 5px;  }
+main .food_list .food_text p{padding:0 10px 30px 20px;font-size: 16px}
+main .food_list .food_text p span{ padding-left: 80px;}
+main .food_list .food_text button{position: absolute;bottom:50px;right: 10px;  }
+main .food_list img{width: 100%;height:450px;}
+
+/*-------------------------------------------美食资讯------------------------------------------*/
+.ifmtion{width: 100%;position: relative;}
+.ifmtion .ifmt_hd2,.ifmt_hd1{
+    width: 60%;float: left;
+    height: 500px;
+}
+.ifmtion .ifmt_hd2{background:#efefef url(../images/op_bg.png);width: 40%}
+.ifmtion #ifmt_main{
+    position: absolute;
+    top: 100px;
+    height: 400px;
+    margin: 0 100px;
+}
+.ifmtion #ifmt_main .ifmt_nav li a{
+    width: 90px;height: 90px;
+    display: block;
+    text-align: center;
+    line-height: 90px;
+    font-size: 18px;
+    border: 1px solid #c8c8c8;
+    margin: 0 10px 10px;
+    color:#999;
+}
+.ifmtion #ifmt_main .ifmt_nav_show a{
+    background: #477445;
+    color: #fff!important;
+    font-weight: bold;
+}
+.ifmtion #ifmt_main .ifmt_nav_show a:hover{
+    color: #fff!important;
+    transition: .5s all;
+    transform: rotate(180deg);
+}
+
+.ifmtion #ifmt_main .bd{
+    width: 90%;
+}
+.ifmtion #ifmt_main .ifmt_list li{
+    float: left;
+    width: 50%;
+    height: 400px;
+}
+.ifmtion #ifmt_main .ifmt_list li dl{
+    padding: 30px;
+    height: 400px;
+    position: relative;
+}
+.ifmtion #ifmt_main .ifmt_list li dl dt{
+    text-align: right;
+    padding:20px 0;
+    line-height: 2em;
+    font-weight: bold;
+}
+.ifmtion #ifmt_main .ifmt_list li dl dt h1{
+    color: #477445;
+    font-size: 34px;
+}
+.ifmtion #ifmt_main .ifmt_list li dl dt h2{
+    font-size: 30px;
+}
+.ifmtion #ifmt_main .ifmt_list li dl dd{
+    text-indent: 2em;
+}
+.ifmtion #ifmt_main .ifmt_list li dl button{
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+}
+.ifmtion #ifmt_main .ifmt_list li img{
+    float: right;
+    width: 100%;
+    height: 400px;
+}
+/*---------------------------------------------------菜式欣赏------------------------------*/
+.vege .vege_banner{
+    width: 100%;
+    height: 150px;
+    background: url(../images/footer-bg.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    padding-top: 50px;
+    color: #fff;
+}
+.vege p{
+    margin-top: 215px;
+    width: 40%;
+    background: #dceccb;
+    height: 215px;
+    padding: 50px;
+}
+.vege .vege_list{
+    width: 60%;
+    overflow: hidden;
+}
+.vege .vege_list li{
+    width: 33.3%;
+    float: left;
+    height: 215px;
+    overflow: hidden;
+}
+.vege .vege_list li img{
+    width: 100%;
+	height:100%;
+}
+.vege .vege_list img:hover{
+    transform: scale(1.1);
+    transition: .5s all;
+}
+
+
+/*----------------------------------------------联系我们----------------------------------------*/
+main .contact{
+    height: 600px;
+    position: relative;
+}
+main .contact h1{
+    padding: 50px 0;
+    text-align: center;
+    color: #477445;
+    font-size: 34px;
+}
+main .contact form{
+    width: 1024px;
+    margin: 0 auto;
+}
+main .contact h3{
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+main .contact h3 span{
+    font-size: 16px;
+    display: block;
+    color: #555;
+}
+main .contact form input{
+    width: 321px;
+    height: 50px;
+    float: left;
+    margin: 20px 20px 0 0;
+    padding: 15px;
+    border: 0;
+    background: #efefef;
+}
+main .contact form textarea{
+    width: 1002px;
+    height: 150px;
+    margin-top: 20px;
+    border: 0;
+    background: #efefef;
+}
+main .contact form button{
+    position: absolute;
+    left: 50%;
+    bottom: 30px;
+    margin-left: -50px;
+}
+
+
+
+
+

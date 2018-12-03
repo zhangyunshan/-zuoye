@@ -1,0 +1,112 @@
+header nav{
+    background: #fff;
+}
+header nav .hd_nav a{
+    font-weight: 500;
+    color: #000;
+}
+header #banner{
+    width: 100%;
+    height: 450px;
+    background: url(../images/sub-banner.jpg) center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+/*---------------------------------------------内容----------------------------------------*/
+
+main{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+main ul{
+    width: 1024px;
+    margin: 0 auto;
+}
+main ul li{
+    float: left;
+    height: 280px;
+}
+main .main_time{
+    width: 130px;
+    padding: 20px 30px 0 0;
+    color: #b6b6b6;
+    position: relative;
+    border-right: 1px solid #c9c9c9;
+}
+main .main_time span{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 1px;
+    width: 1px;
+    background: #c6c6c6;
+    display: block;
+}
+main .main_time a{
+    display: block;
+    font-size: 36px;
+    color: #b6b6b6;
+    padding-top: 20px;
+}
+main .main_text{
+    width: 470px;
+    padding: 20px 40px 20px 20px;
+}
+main .main_text h3{
+    padding-bottom: 20px;
+    color: #555;
+}
+main .main_text p{
+    color: #a5a5a5;
+    text-align: justify;
+    text-indent: 2em;
+}
+main .main_text a{
+    display: none;
+    font-size: 36px;
+    color: #b6b6b6;
+    padding-top: 20px;
+    float: right;
+}
+main .main_photo{
+    width: 424px;
+    padding: 20px;
+}
+main .main_photo img{
+    width: 100%;
+    height: 100%;
+}
+main ul:hover .main_time a{
+    color:#477445;
+}
+main ul:hover .main_time span{
+    animation: ds 1s 1;
+    background: #477445;
+    transition: .5s all;
+}
+@keyframes ds {
+    0%{
+        background: #c9c9c9;
+        height: 1px;
+    }
+    100%{
+        background: #477445;
+        height: 200px;
+    }
+}
+main ul:hover .main_text{
+    transform: translate(20px);
+    animation: right 1s 1;
+    transition: .5s all;
+}
+@keyframes right {
+    from{
+        transform: translate(10px);
+    }
+    to{transform: translate(20px);
+    }
+}
+main ul:hover .main_text a{display: block}
+

@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>美食</title>
+    <link rel="stylesheet" href="style/style.css"/>
+    <link rel="stylesheet" href="style/index-style.css"/>
+    <script type="text/javascript" src="js/jquery.js"></script>
+</head>
+<body>
+<header>
+    <!-- 导航 -->
+    <nav class="o_h navbar">
+       <img src="images/logo.png" class="hd-logo">
+        <ul class="hd_nav o_h">
+            <li class="show"><a href="index.html">网站首页 <span></span></a></li>
+            <li><a href="#">美味美食 <span></span></a></li>
+            <li><a href="sub2.html">美食资讯 <span></span></a></li>
+            <li><a href="sub1.html">菜式欣赏 <span></span></a></li>
+            <li><a href="contact.html">在线预订 <span></span></a></li>
+            <li><a href="#">关于我们 <span></span></a></li>
+        </ul>
+    </nav>
+    <script>
+            $(document).ready(function(){
+                $(window).scroll(function() {
+                    var top = $("#food").offset().top; //获取指定位置
+                    var scrollTop = $(window).scrollTop();  //获取当前滑动位置
+                    if(scrollTop > top){                 //滑动到该位置时执行代码
+                        $(".navbar").addClass("active");
+                    }else{
+                        $(".navbar").removeClass("active");
+                    }
+                });
+            });
+        </script>
+    <div class="header-carousel container">
+        <div id="myCarousel" class="carousel slide">
+            <!-- 轮播（Carousel）指标 -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+            </ol>
+            <!-- 轮播（Carousel）项目 -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="images/banner1.jpg">
+                </div>
+                <div class="item">
+                    <img src="images/banner2.jpg">
+                </div>
+                <div class="item">
+                    <img src="images/banner3.jpg">
+                </div>
+                <div class="item">
+                    <img src="images/banner5.jpg">
+                </div>
+                <div class="item">
+                    <img src="images/banner4.jpg">
+                </div>
+            </div>
+            <!-- 轮播（Carousel）导航 -->
+            <a class="carousel-control left" href="#myCarousel"
+               data-slide="prev"></a>
+            <a class="carousel-control right" href="#myCarousel"
+               data-slide="next"></a>
+        </div>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/main.js"></script>
+</header>
+<main>
+    <!------------------------------------------美味美食------------------------------->
+    <article class="food o_h" id="food">
+        <div class="food_bg"></div>
+        <ul class="food_list o_h">
+            <li class="food_text">
+                <h1>美味美食 <span>Delicious food</span></h1>
+                <p>专注美食市场20余年
+                    <span>——品质酿造生活</span></p>
+                <p>在2010年，源于我们对品质的追求，Baker & Spice诞生了。
+                    它是一个获得了多个奖项的咖啡面包房，专注于提供欧洲面包、酸面包、
+                    西点和蛋糕。它每日为Wagas提供新鲜产品，保证了最好的质量。
+                </p>
+                <button>Read More</button>
+            </li>
+            <li>
+                <img src="images/mwms1.jpg" alt=""/>
+                <div>
+                    <h3>Signboard gourmet</h3>
+                    <h3>招牌美食</h3>
+                    <span></span>
+                </div>
+            </li>
+            <li><img src="images/mwms2.jpg" alt=""/>
+                <div>
+                    <h3>Classic cuisine</h3>
+                    <h3>经典菜系</h3>
+                    <span></span>
+                </div></li>
+            <li><img src="images/mwms3.jpg" alt=""/>
+                <div>
+                    <h3>Health Drink</h3>
+                    <h3>健康饮品</h3>
+                    <span></span>
+                </div>
+                </li>
+        </ul>
+    </article>
+    <!-------------------------------------------美食资讯------------------------------------------>
+    <article class="ifmtion o_h">
+        <div class="ifmt_hd1"></div>
+        <div class="ifmt_hd2"></div>
+
+
+        <div id="ifmt_main">
+
+            <div class="hd f_l">
+              <ul class="ifmt_nav">
+                 <li><a href="#">#1</a></li>
+                 <li><a href="#">#2</a></li>
+                 <li><a href="#">#3</a></li>
+                 <li class="ifmt_nav_show"><a href="#">+</a></li>
+              </ul>
+            </div>
+        <script>
+           var oUl=document.getElementsByClassName("ifmt_nav")[0];
+           var oLi=oUl.getElementsByTagName("a");
+           for(var i=0;i<oLi.length;i++){
+               oLi[i].index=i;
+               oLi[i].onmouseover=function(){
+                   for(var j=0;j<oLi.length;j++){
+                       oLi[j].style.border="1px solid #c8c8c8";
+                       oLi[j].style.color="#999";
+                   }
+                   oLi[this.index].style.border="1.5px solid #477445";
+                   oLi[this.index].style.color="#477445";
+               }
+           }
+        </script>
+            <div class="bd f-r">
+                <ul class="ifmt_list">
+                    <li>
+                    <dl>
+                        <dt>
+                        <h1>.01</h1>
+                        <h2>美食资讯</h2>
+                        <h3>Food information</h3>
+                        </dt>
+                        <dd>鲜香味美的烤鸡，不仅营养丰富，而且低脂健康，想要
+                            经常品尝烤鸡的滋味，时时乐精品烤鸡外卖，满足你对
+                            烤鸡的所有幻想。不必到餐厅，时时乐主食外卖可以让
+                            你品尝到口感完美的菜品。不仅如此，时时乐的沙拉外
+                            卖服务也在进行当中，一口肉质鲜美的鸡肉，一口清爽
+                            的沙拉，足不出户就可以完成一天的营养需求。还在等
+                            什么呢?现在起登录美团和百度外卖，享受美味菜品吧!
+                        </dd>
+                        <dd><button>Read More</button></dd>
+                    </dl>
+                    </li>
+                    <li><img src="images/mszx1.jpg" alt=""/></li>
+                </ul>
+                <ul class="ifmt_list">
+                    <li>
+                    <dl>
+                        <dt>
+                        <h1>.02</h1>
+                        <h1>美食资讯</h1>
+                        <h3>Food information</h3>
+                        </dt>
+                        <dd>鲜香味美的烤鸡，不仅营养丰富，而且低脂健康，想要
+                            经常品尝烤鸡的滋味，时时乐精品烤鸡外卖，满足你对
+                            烤鸡的所有幻想。不必到餐厅，时时乐主食外卖可以让
+                            你品尝到口感完美的菜品。不仅如此，时时乐的沙拉外
+                            卖服务也在进行当中，一口肉质鲜美的鸡肉，一口清爽
+                            的沙拉，足不出户就可以完成一天的营养需求。还在等
+                            什么呢?现在起登录美团和百度外卖，享受美味菜品吧!
+                        </dd>
+                        <dd><button>Read More</button></dd>
+                    </dl>
+                    </li>
+                    <li><img src="images/mszx2.jpg" alt=""/></li>
+                </ul>
+                <ul class="ifmt_list">
+                    <li><dl>
+                        <dt>
+                        <h1>.03</h1>
+                        <h1>美食资讯</h1>
+                        <h3>Food information</h3>
+                        </dt>
+                        <dd>鲜香味美的烤鸡，不仅营养丰富，而且低脂健康，想要
+                            经常品尝烤鸡的滋味，时时乐精品烤鸡外卖，满足你对
+                            烤鸡的所有幻想。不必到餐厅，时时乐主食外卖可以让
+                            你品尝到口感完美的菜品。不仅如此，时时乐的沙拉外
+                            卖服务也在进行当中，一口肉质鲜美的鸡肉，一口清爽
+                            的沙拉，足不出户就可以完成一天的营养需求。还在等
+                            什么呢?现在起登录美团和百度外卖，享受美味菜品吧!
+                        </dd>
+                        <dd><button>Read More</button></dd>
+                    </dl>
+                    </li>
+                    <li><img src="images/mszx3.jpg" alt=""/></li>
+              </ul>
+                <ul class="ifmt_list">
+                    <li><dl>
+                        <dt>
+                        <h1>.04</h1>
+                        <h1>美食资讯</h1>
+                        <h3>Food information</h3>
+                        </dt>
+                        <dd>鲜香味美的烤鸡，不仅营养丰富，而且低脂健康，想要
+                            经常品尝烤鸡的滋味，时时乐精品烤鸡外卖，满足你对
+                            烤鸡的所有幻想。不必到餐厅，时时乐主食外卖可以让
+                            你品尝到口感完美的菜品。不仅如此，时时乐的沙拉外
+                            卖服务也在进行当中，一口肉质鲜美的鸡肉，一口清爽
+                            的沙拉，足不出户就可以完成一天的营养需求。还在等
+                            什么呢?现在起登录美团和百度外卖，享受美味菜品吧!
+                        </dd>
+                        <dd><button>Read More</button></dd>
+                    </dl>
+                    </li>
+                    <li><img src="images/mszx4.jpg" alt=""/></li>
+              </ul>
+            </div>
+        </div>
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
+        <script type="text/javascript">
+            jQuery("#ifmt_main").slide({effect:"left",easing:"easeOutBounce"});
+        </script>
+    </article>
+
+<!------------------------------------------菜式欣赏 Vegetable appreciation --------------------------------------->
+    <article class="vege o_h">
+        <div class="vege_banner">
+            <h1>菜式欣赏 </h1>
+            <h1>Vegetable appreciation </h1>
+        </div>
+        <p class="f_l">
+            每一种食物来源都经过我们的精挑细选，关于食材我们只选最天然、健康、优质的，
+            只为一份对极致美味的追求，用心做好每一份菜，是我们不变的宗旨。
+        </p>
+        <ul class="vege_list f_l">
+            <li><img src="images/mdlist1.jpg"></li>
+            <li><img src="images/mdlist2.jpg"></li>
+            <li><img src="images/mdlist3.jpg"></li>
+            <li><img src="images/mdlist4.jpg"></li>
+            <li><img src="images/mdlist5.jpg"></li>
+            <li><img src="images/mdlist6.jpg"></li>
+            <li><img src="images/mdlist7.jpg"></li>
+            <li><img src="images/mdlist8.jpg"></li>
+            <li><img src="images/mdlist9.jpg"></li>
+        </ul>
+    </article>
+<!--------------------------------------------------联系我们------------------------------------->
+    <div class="contact">
+        <h1>Book Your Table</h1>
+        <form role="form">
+            <h3>联系我们
+                <span>contact us</span>
+            </h3>
+            <input type="text" class="form-control" id="name" placeholder="Name">
+            <input type="email" class="form-control" id="email" placeholder="Email">
+            <input type="text" class="form-control" id="phone" placeholder="Phone">
+            <input type="date" class="form-control" id="date" placeholder="Date">
+            <input type="time" class="form-control" id="time" placeholder="Time">
+            <input type="text" class="form-control" id="party" placeholder="Party">
+            <textarea class="form-control" id="message" placeholder="Message" rows="8">
+            </textarea>
+            <button type="submit" class="btn">Book</button>
+        </form>
+    </div>
+</main>
+<footer class="o_h">
+    <dl class="footer_text f_l">
+        <dt></dt>
+        <dd>
+            厚实的肉身，橙红色的色泽，层叠的纹路，时时乐的三文鱼仅以外
+            观就轻松勾起人的食欲。丰富的营养，细腻鲜美的口感，这是不可错过的美味。
+            时时乐精心推出的半切三文鱼，适合午餐食用，可以轻松满足一天的营养需求
+        </dd>
+        <dd><a href="#">Read More...</a></dd>
+    </dl>
+    <ul class="footer_nav f_l">
+        <li><a href="#">网站首页</a><span></span></li>
+        <li><a href="#">美味美食</a><span></span></li>
+        <li><a href="#">美食资讯</a><span></span></li>
+        <li><a href="#">菜式欣赏</a><span></span></li>
+        <li><a href="#">联系我们</a><span></span></li>
+    </ul>
+    <dl class="footer_con f_l">
+        <dt>Contact centre</dt>
+        <dd>地球中国黑龙江省哈尔滨市哈西东方国际中心十层</dd>
+        <dd>1621115870@.qq.com</dd>
+        <dd>0451123455</dd>
+    </dl>
+</footer>
+</body>
+</html>
